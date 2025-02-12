@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Objective Markers</title>
+
+    <style>
+        @media print {
+            body {
+                width: 21cm;
+                height: 29.7cm;
+                margin: 0;
+            }
+
+            .page, .page-break {
+                break-after: page;
+            }
+
+            * {
+                -webkit-print-color-adjust: exact !important; /* Chrome/Safari/Edge */
+                print-color-adjust: exact !important; /* Standard */
+            }
+        }
+
+        .scoring {
+            background-color: #eee;
+            width: calc(6in + 4cm);
+            height: calc(6in + 4cm);
+            border-radius: calc(3in + 2cm);
+            border: 3px dashed #333;
+            margin: 2em 0;
+        }
+
+        .objective-marker {
+            position: relative;
+            left: calc(50% - 2cm);
+            top: calc(50% - 2cm);
+            display: block;
+            width: 4cm;
+            height: 4cm;
+            background-color: #ccc;
+            border-radius: 2cm;
+            border: 1px solid #333;
+        }
+
+        .label {
+            margin: 0;
+            display: block;
+            font-size: 2cm;
+            text-align: center;
+            font-family: sans-serif;
+            line-height: 4cm;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <div class="scoring">
+        <div class="objective-marker">
+            <p class="label">1</p>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="scoring">
+        <div class="objective-marker">
+            <p class="label">2</p>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="scoring">
+        <div class="objective-marker">
+            <p class="label">3</p>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="scoring">
+        <div class="objective-marker">
+            <p class="label">4</p>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="scoring">
+        <div class="objective-marker">
+            <p class="label">5</p>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="scoring">
+        <div class="objective-marker">
+            <p class="label">6</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
